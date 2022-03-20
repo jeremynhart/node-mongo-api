@@ -15,7 +15,7 @@ const dataSchema = new mongoose.Schema({
         required: true
     },
     warrantyType: {
-        type: String,
+        type: Number,
         required: true
     },
     activeWarranty: {

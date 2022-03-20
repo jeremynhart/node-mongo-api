@@ -17,10 +17,11 @@ app.listen(9000, () => {
     console.log('Server is listening on PORT:9000')
 })
 
-const dataRouter = require('./routes/api')
+app.use(express.json())
 
+const dataRouter = require('./routes/api')
 app.use('/api', dataRouter)
 
-app.use(express.json())
+
 
 
