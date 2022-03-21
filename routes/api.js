@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const Record = require('../models/schema')
+const Record = require('../dBSchema/schema')
 
 
 // Asynchronous GET Request to fetch ALL RECORDS in the DB
